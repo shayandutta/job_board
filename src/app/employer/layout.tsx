@@ -30,7 +30,7 @@ import { redirect } from "next/navigation"
 import { ReactNode, Suspense } from "react"
 import { JobListingMenuGroup } from "./_JobListingMenugroup"
 
-export default function EmployerLayout({ children }: { children: ReactNode }) {
+export default function OrganizerLayout({ children }: { children: ReactNode }) {
   return (
     <Suspense>
       <LayoutSuspense>{children}</LayoutSuspense>
@@ -66,7 +66,7 @@ async function LayoutSuspense({ children }: { children: ReactNode }) {
           <SidebarNavMenuGroup
             className="mt-auto"
             items={[
-              { href: "/", icon: <ClipboardListIcon />, label: "Job Board" },
+              { href: "/", icon: <ClipboardListIcon />, label: "Student Opportunities" },
             ]}
           />
         </>

@@ -241,8 +241,8 @@ function UpgradePopover({
       </PopoverTrigger>
       <PopoverContent className="flex flex-col gap-2">
         {popoverText}
-        <Button asChild>
-          <Link href="/employer/pricing">Upgrade Plan</Link>
+        <Button asChild variant="secondary">
+          <Link href="/employer">View Dashboard</Link>
         </Button>
       </PopoverContent>
     </Popover>

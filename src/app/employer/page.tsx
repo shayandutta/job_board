@@ -7,7 +7,7 @@ import { cacheTag } from "next/dist/server/use-cache/cache-tag"
 import { redirect } from "next/navigation"
 import { Suspense } from "react"
 
-export default function EmployerHomePage() {
+export default function OrganizerHomePage() {
   return (
     <Suspense>
       <SuspendedPage />

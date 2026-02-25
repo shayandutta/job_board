@@ -13,7 +13,7 @@ import { cacheTag } from "next/dist/server/use-cache/cache-tag"
 import { notFound } from "next/navigation"
 import { Suspense } from "react"
 
-export default function EmployerUserSettingsPage() {
+export default function OrganizerUserSettingsPage() {
   return (
     <Suspense>
       <SuspendedComponent />

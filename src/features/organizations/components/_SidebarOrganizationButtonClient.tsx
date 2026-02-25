@@ -16,7 +16,6 @@ import {
   ArrowLeftRightIcon,
   Building2Icon,
   ChevronsUpDown,
-  CreditCardIcon,
   LogOutIcon,
   SettingsIcon,
   UserIcon,
@@ -75,11 +74,6 @@ export function SidebarOrganizationButtonClient({
         <DropdownMenuItem asChild>
           <Link href="/employer/user-settings">
             <UserRoundCogIcon className="mr-1" /> User Settings
-          </Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <Link href="/employer/pricing">
-            <CreditCardIcon className="mr-1" /> Change Plan
           </Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />

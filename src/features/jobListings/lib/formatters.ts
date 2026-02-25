@@ -57,6 +57,14 @@ export function formatJobType(type: JobListingType) {
       return "Part Time"
     case "internship":
       return "Internship"
+    case "hackathon":
+      return "Hackathon"
+    case "event":
+      return "Event"
+    case "startup_role":
+      return "Startup Role"
+    case "project":
+      return "Project"
     default:
       throw new Error(`Unknown job type: ${type satisfies never}`)
   }
